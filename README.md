@@ -2,68 +2,102 @@
 
 ## 📌 Overview
 
-This repository contains the projects completed as part of my **CODSOFT Data Analytics Internship**.
+This repository contains my completed projects as part of the **CODSOFT Data Analytics Internship**.
 
-The internship tasks focus on the complete data analysis workflow, starting from **data cleaning and preprocessing**, followed by **exploratory data analysis**, and finally **data visualization and dashboard development**.
-
-The projects demonstrate practical knowledge of Python-based data analysis, statistical exploration, visualization, and business-oriented insight generation.
+The projects demonstrate a complete data analytics workflow, including **Data Cleaning & Preprocessing, Exploratory Data Analysis (EDA), Data Visualization, and Dashboard Development** using Python and Power BI.
 
 ---
 
-## 📂 Completed Tasks
+# 📂 Completed Tasks
 
-### 🧹 Task 1 — Data Cleaning & Preprocessing
+## 🧹 Task 1 — Data Cleaning & Preprocessing
 
-#### Objective
+### Objective
 
 The objective of this task was to import, inspect, clean, and prepare a dataset for further analysis using Python and Pandas.
 
-#### Key Activities
+### Dataset
 
-* Imported the dataset using Python.
-* Inspected the dataset structure, columns, and data types.
-* Identified missing/null values.
+The project uses a **Shopping Trends Dataset**.
+
+### Key Activities
+
+* Imported and inspected the dataset.
+* Examined the dataset structure, columns, and data types.
+* Identified missing values.
 * Detected duplicate records.
 * Identified inconsistent data entries.
-* Handled missing values appropriately.
+* Handled null values.
 * Removed duplicate records.
 * Corrected data types where required.
-* Prepared the cleaned dataset for further analysis.
+* Prepared the dataset for further analysis.
 * Saved the cleaned dataset as a new CSV file.
 
-#### Tools & Technologies
+### Files
+
+```text
+Task_1_Data_Cleaning/
+├── data/
+│   ├── shopping_trends.csv
+│   └── shopping_trends_dirty.csv
+├── notebooks/
+│   └── data_cleaning.ipynb
+├── output/
+│   └── cleaned_dataset.csv
+├── README.md
+└── requirements.txt
+```
+
+### Tools & Technologies
 
 * Python
 * Pandas
 * NumPy
 * Jupyter Notebook
 
-#### Outcome
+### Outcome
 
-The raw dataset was transformed into a cleaner and analysis-ready dataset by addressing data quality issues such as missing values, duplicate records, and data type inconsistencies.
+The dataset was successfully cleaned and transformed into an analysis-ready format by handling data quality issues such as missing values, duplicate records, and inconsistent data types.
 
 ---
 
-### 📊 Task 2 — Exploratory Data Analysis (EDA)
+# 📊 Task 2 — Exploratory Data Analysis (EDA)
 
-#### Objective
+### Objective
 
-The objective of this task was to explore the dataset using statistical methods and visualizations to identify important trends, distributions, relationships, and unusual patterns.
+The objective of this task was to explore the dataset using descriptive statistics and visualizations to identify trends, distributions, relationships, outliers, and unusual patterns.
 
-#### Key Activities
+### Dataset
+
+The project uses the **Sample Superstore Dataset**.
+
+### Key Activities
 
 * Loaded and examined the dataset.
-* Analyzed the structure and characteristics of the data.
+* Analyzed dataset structure and features.
 * Generated descriptive statistics.
 * Studied numerical and categorical variables.
-* Analyzed distributions of important features.
-* Identified relationships between variables.
-* Examined trends and patterns within the data.
-* Detected potential outliers and unusual observations.
+* Analyzed distributions of important variables.
+* Identified trends and patterns.
+* Examined relationships between variables.
+* Detected potential outliers and unusual patterns.
 * Used summary statistics to answer relevant business questions.
-* Derived meaningful insights from the analysis.
+* Generated meaningful analytical insights.
 
-#### Tools & Technologies
+### Files
+
+```text
+EDA_Superstore_Project/
+│
+├── data/
+│   └── Sample - Superstore dataset.xlsx
+│
+├── Superstore_EDA.ipynb
+├── README.md
+└── requirements.txt
+```
+
+### Tools & Technologies
 
 * Python
 * Pandas
@@ -72,98 +106,119 @@ The objective of this task was to explore the dataset using statistical methods 
 * Seaborn
 * Jupyter Notebook
 
-#### Outcome
+### Outcome
 
-The exploratory analysis provided a better understanding of the dataset and helped identify meaningful patterns, relationships, trends, and potential areas of interest for further analysis.
+The EDA provided meaningful insights into Superstore sales data by analyzing sales, profit, quantity, customer segments, product categories, regions, and other relevant variables.
 
 ---
 
-### 📈 Task 3 — Data Visualization Dashboard
+# 📈 Task 3 — Data Visualization Dashboard
 
-#### Objective
+### Objective
 
-The objective of this task was to transform data into clear, meaningful, and easy-to-understand visualizations that communicate important business insights.
+The objective of this task was to create meaningful and easy-to-understand visualizations and present important business insights through a dashboard.
 
-#### Visualizations Created
+### Dataset
 
-* **Bar Chart** — Total Revenue by Product Category
-* **Line Chart** — Monthly Sales Revenue Trend
-* **Pie Chart** — Revenue Share by Gender
-* **Histogram** — Customer Age Distribution
-* **Scatter Plot** — Quantity Purchased vs. Total Amount
-* **KPI Summary** — Total Revenue, Total Orders, and Average Transaction
+The project uses the **Sample Superstore Dataset**.
 
-#### Key Activities
+### Visualizations
 
-* Created meaningful charts using Matplotlib and Seaborn.
-* Designed different types of visualizations according to the analytical requirement.
-* Added appropriate chart titles and axis labels.
-* Used legends where required.
-* Applied suitable visualization styling and color schemes.
-* Analyzed trends and relationships through graphical representations.
-* Presented key findings through a combined dashboard.
+The dashboard includes:
 
-#### Bonus
+* **Bar Charts** — Category and sales comparisons
+* **Line Charts** — Sales trends over time
+* **Pie Charts** — Proportion/share analysis
+* **Histograms** — Distribution analysis
+* **Scatter Plots** — Relationships between numerical variables
 
-An interactive dashboard can be developed using **Power BI or Tableau** to allow users to explore the sales data dynamically.
+### Key Activities
 
-#### Tools & Technologies
+* Created meaningful visualizations using Python.
+* Used Matplotlib and Seaborn for data visualization.
+* Customized charts with titles and labels.
+* Added legends where appropriate.
+* Applied suitable color schemes and styling.
+* Analyzed sales and profit trends.
+* Presented important findings through visualizations.
+* Created a dashboard for easier interpretation of business performance.
+
+### Bonus — Power BI
+
+An interactive **Power BI dashboard** was created to provide a dynamic view of the Superstore data and enable easier analysis of key business metrics and trends.
+
+### Files
+
+```text
+Data_Visualization_Dashboard/
+│
+├── data/
+│   └── Sample - Superstore dataset.xlsx
+│
+├── Superstore_Visualization_Dashboard.ipynb
+├── Superstore_PowerBI_Dashboard.pbix
+├── dashboard_screenshot.png
+├── README.md
+└── requirements.txt
+```
+
+### Tools & Technologies
 
 * Python
 * Pandas
+* NumPy
 * Matplotlib
 * Seaborn
 * Jupyter Notebook
-* Power BI / Tableau
+* Power BI
 
-#### Outcome
+### Outcome
 
-The visualization dashboard converts raw sales data into an intuitive graphical representation, making it easier to understand sales performance, customer characteristics, purchasing behavior, and revenue trends.
+The visualization and dashboard project transformed Superstore data into clear graphical representations, making it easier to understand sales performance, profitability, trends, and relationships between business variables.
 
 ---
 
-## 🛠️ Technologies & Tools
+# 🛠️ Technologies & Tools
 
 | Category                | Technologies        |
 | ----------------------- | ------------------- |
 | Programming Language    | Python              |
 | Data Manipulation       | Pandas, NumPy       |
 | Data Visualization      | Matplotlib, Seaborn |
-| Statistical Analysis    | Pandas, NumPy       |
 | Development Environment | Jupyter Notebook    |
-| Dashboarding            | Power BI / Tableau  |
+| Business Intelligence   | Power BI            |
 | Version Control         | Git & GitHub        |
 
 ---
 
-## 🔄 Data Analysis Workflow
+# 🔄 Data Analytics Workflow
 
-The three tasks demonstrate the following data analytics workflow:
+The three projects demonstrate the following end-to-end workflow:
 
 ```text
-Raw Dataset
-     ↓
+Raw Data
+   ↓
 Data Cleaning & Preprocessing
-     ↓
+   ↓
 Exploratory Data Analysis
-     ↓
+   ↓
 Data Visualization
-     ↓
+   ↓
 Dashboard Development
-     ↓
+   ↓
 Business Insights
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
-Through these projects, I developed practical experience in:
+Through these internship tasks, I gained practical experience in:
 
 * Data Cleaning and Preprocessing
 * Missing Value Handling
 * Duplicate Detection and Removal
-* Data Type Conversion
+* Data Type Correction
 * Exploratory Data Analysis
 * Descriptive Statistics
 * Trend and Distribution Analysis
@@ -171,47 +226,56 @@ Through these projects, I developed practical experience in:
 * Data Visualization
 * Business Insight Generation
 * Dashboard Development
+* Power BI
 * Python-based Data Analytics
 * Git and GitHub
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
 codsoft_tasks/
 │
 ├── Task_1_Data_Cleaning/
-│   ├── dataset/
-│   ├── notebook/
-│   ├── output/
-│   └── README.md
-│
-├── Task_2_EDA/
-│   ├── dataset/
-│   ├── notebook/
-│   ├── visualizations/
-│   └── README.md
-│
-├── Task_3_Data_Visualization/
-│   ├── dataset/
+│   ├── data/
+│   │   ├── shopping_trends.csv
+│   │   └── shopping_trends_dirty.csv
 │   ├── notebooks/
-│   ├── visualizations/
-│   ├── powerbi/
-│   └── README.md
+│   │   └── data_cleaning.ipynb
+│   ├── output/
+│   │   └── cleaned_dataset.csv
+│   ├── README.md
+│   └── requirements.txt
+│
+├── EDA_Superstore_Project/
+│   ├── data/
+│   │   └── Sample - Superstore dataset.xlsx
+│   ├── Superstore_EDA.ipynb
+│   ├── README.md
+│   └── requirements.txt
+│
+├── Data_Visualization_Dashboard/
+│   ├── data/
+│   │   └── Sample - Superstore dataset.xlsx
+│   ├── Superstore_Visualization_Dashboard.ipynb
+│   ├── Superstore_PowerBI_Dashboard.pbix
+│   ├── dashboard_screenshot.png
+│   ├── README.md
+│   └── requirements.txt
 │
 └── README.md
 ```
 
 ---
 
-## 📌 Internship Objective
+# 📌 Internship Objective
 
-The overall objective of these tasks was to gain hands-on experience in the data analytics lifecycle by working with datasets, improving data quality, exploring patterns, creating visualizations, and communicating insights effectively.
+The overall objective of these projects was to develop practical data analytics skills by working with real-world datasets, improving data quality, exploring meaningful patterns, creating informative visualizations, and presenting business insights through dashboards.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Suraj Kumar Mishra**
 
@@ -219,6 +283,6 @@ The overall objective of these tasks was to gain hands-on experience in the data
 
 ---
 
-## 🙏 Acknowledgement
+# 🙏 Acknowledgement
 
-I sincerely thank **CODSOFT** for providing this internship opportunity and for offering practical tasks that helped me strengthen my skills in **Python, Data Analysis, Data Visualization, and Dashboard Development**.
+I sincerely thank **CODSOFT** for providing this internship opportunity and for offering practical tasks that helped me strengthen my skills in **Data Cleaning, Exploratory Data Analysis, Data Visualization, Python, and Power BI**.
