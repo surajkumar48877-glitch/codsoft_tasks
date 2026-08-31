@@ -47,7 +47,7 @@ Libraries used:
 ## Project Structure
 
 ```text
-EDA_Superstore_Project/
+Task-2_Exploratory_Data_Analysis(EDA)/
 │
 ├── data/
 │   └── Sample - Superstore dataset.xlsx
