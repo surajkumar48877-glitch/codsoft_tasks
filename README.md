@@ -36,7 +36,7 @@ The project uses a **Shopping Trends Dataset**.
 ### Files
 
 ```text
-Task-11_Data_Cleaning_and_Preprocessing/
+Task-1_Data_Cleaning_and_Preprocessing/
 ├── data/
 │   ├── shopping_trends.csv
 │   └── shopping_trends_dirty.csv
