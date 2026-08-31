@@ -36,7 +36,7 @@ The project uses a **Shopping Trends Dataset**.
 ### Files
 
 ```text
-Task_1_Data_Cleaning/
+Task-11_Data_Cleaning_and_Preprocessing/
 ├── data/
 │   ├── shopping_trends.csv
 │   └── shopping_trends_dirty.csv
@@ -87,7 +87,7 @@ The project uses the **Sample Superstore Dataset**.
 ### Files
 
 ```text
-EDA_Superstore_Project/
+Task-2_Exploratory_Data_Analysis(EDA)/
 │
 ├── data/
 │   └── Sample - Superstore dataset.xlsx
@@ -150,7 +150,7 @@ An interactive **Power BI dashboard** was created to provide a dynamic view of t
 ### Files
 
 ```text
-Data_Visualization_Dashboard/
+Task-3_Data_Visualization_Dashboard/
 │
 ├── data/
 │   └── Sample - Superstore dataset.xlsx
