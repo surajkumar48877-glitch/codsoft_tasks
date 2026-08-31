@@ -237,7 +237,7 @@ Through these internship tasks, I gained practical experience in:
 ```text
 codsoft_tasks/
 │
-├── Task_1_Data_Cleaning/
+├── Task_1_Data_Cleaning_and_Preprocessing/
 │   ├── data/
 │   │   ├── shopping_trends.csv
 │   │   └── shopping_trends_dirty.csv
@@ -248,14 +248,14 @@ codsoft_tasks/
 │   ├── README.md
 │   └── requirements.txt
 │
-├── EDA_Superstore_Project/
+├── Task-2_Exploratory_Data_Analysis(EDA)/
 │   ├── data/
 │   │   └── Sample - Superstore dataset.xlsx
 │   ├── Superstore_EDA.ipynb
 │   ├── README.md
 │   └── requirements.txt
 │
-├── Data_Visualization_Dashboard/
+├── Task-3_Data_Visualization_Dashboard/
 │   ├── data/
 │   │   └── Sample - Superstore dataset.xlsx
 │   ├── Superstore_Visualization_Dashboard.ipynb
