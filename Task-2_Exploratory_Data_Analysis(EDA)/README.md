@@ -100,5 +100,3 @@ jupyter notebook
 ## Conclusion
 
 This project uses EDA to identify profitable areas, loss-making products, discount-related risks, return patterns, and unusual order values. The findings can help a retail business make better decisions about pricing, discounts, product categories, and regional sales strategy.
-
-**Important:** Agar tum GitHub ke `README.md` mein paste kar rahe ho, to `:::writing...` bhi paste **mat** karna. Sirf uske andar ka content paste karna, starting `# Superstore...` se.
