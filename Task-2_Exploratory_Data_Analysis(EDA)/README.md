@@ -1,5 +1,3 @@
-`README.md` mein ye content paste karo:
-
 ```markdown
 # Superstore Sales Exploratory Data Analysis
 
