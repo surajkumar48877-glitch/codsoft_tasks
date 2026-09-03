@@ -1,4 +1,3 @@
-```markdown
 # Superstore Sales Exploratory Data Analysis
 
 ## Project Overview
@@ -7,14 +6,14 @@ This project performs Exploratory Data Analysis (EDA) on the Sample Superstore d
 
 ## Objectives
 
-- Load and understand the Superstore dataset.
-- Perform data cleaning and check missing values.
-- Calculate descriptive statistics.
-- Identify sales and profit trends.
-- Analyse relationships between sales, discount, and profit.
-- Compare categories, sub-categories, regions, and customer segments.
-- Detect outliers in sales and profit.
-- Provide business insights and recommendations.
+* Load and understand the Superstore dataset.
+* Perform data cleaning and check missing values.
+* Calculate descriptive statistics.
+* Identify sales and profit trends.
+* Analyse relationships between sales, discount, and profit.
+* Compare categories, sub-categories, regions, and customer segments.
+* Detect outliers in sales and profit.
+* Provide business insights and recommendations.
 
 ## Dataset
 
@@ -24,9 +23,9 @@ The dataset used in this project is:
 
 It contains three sheets:
 
-- **Orders:** Customer, product, sales, quantity, discount, and profit information.
-- **Returns:** Details of returned orders.
-- **People:** Regional manager information.
+* **Orders:** Customer, product, sales, quantity, discount, and profit information.
+* **Returns:** Details of returned orders.
+* **People:** Regional manager information.
 
 The Orders sheet contains 9,994 records and 21 columns.
 
@@ -36,11 +35,11 @@ This project was created using Python in Jupyter Notebook.
 
 Libraries used:
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Openpyxl
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Openpyxl
 
 ## Project Structure
 
@@ -72,13 +71,13 @@ Task-2_Exploratory_Data_Analysis(EDA)/
 
 ## Key Business Questions
 
-- Which category and sub-category generate the most sales and profit?
-- Which sub-categories are making losses?
-- Which region and customer segment perform best?
-- How do sales and profit change over time?
-- Does discount affect profit?
-- How many orders were returned?
-- Which sales and profit values are unusual outliers?
+* Which category and sub-category generate the most sales and profit?
+* Which sub-categories are making losses?
+* Which region and customer segment perform best?
+* How do sales and profit change over time?
+* Does discount affect profit?
+* How many orders were returned?
+* Which sales and profit values are unusual outliers?
 
 ## How to Run the Project
 
@@ -101,4 +100,5 @@ jupyter notebook
 ## Conclusion
 
 This project uses EDA to identify profitable areas, loss-making products, discount-related risks, return patterns, and unusual order values. The findings can help a retail business make better decisions about pricing, discounts, product categories, and regional sales strategy.
-```
+
+**Important:** Agar tum GitHub ke `README.md` mein paste kar rahe ho, to `:::writing...` bhi paste **mat** karna. Sirf uske andar ka content paste karna, starting `# Superstore...` se.
